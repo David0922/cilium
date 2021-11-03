@@ -204,10 +204,15 @@ github.com/cilium/proxy/go/envoy/type/v3
 # github.com/cilium/workerpool v1.1.0
 ## explicit; go 1.15
 github.com/cilium/workerpool
-# github.com/cncf/udpa/go v0.0.0-20201211205326-cc1b757b3edd
+# github.com/cncf/udpa/go v0.0.0-20210930031921-04548b0d99d4
 ## explicit; go 1.11
 github.com/cncf/udpa/go/udpa/annotations
 github.com/cncf/udpa/go/xds/core/v3
+# github.com/cncf/xds/go v0.0.0-20211011173535-cb28da3451f1
+## explicit; go 1.11
+github.com/cncf/xds/go/udpa/annotations
+github.com/cncf/xds/go/xds/annotations/v3
+github.com/cncf/xds/go/xds/core/v3
 # github.com/containernetworking/cni v0.8.1
 ## explicit
 github.com/containernetworking/cni/pkg/skel
@@ -957,8 +962,8 @@ google.golang.org/appengine/urlfetch
 ## explicit; go 1.11
 google.golang.org/genproto/googleapis/api/annotations
 google.golang.org/genproto/googleapis/rpc/status
-# google.golang.org/grpc v1.39.0
-## explicit; go 1.11
+# google.golang.org/grpc v1.42.0
+## explicit; go 1.14
 google.golang.org/grpc
 google.golang.org/grpc/attributes
 google.golang.org/grpc/backoff
@@ -997,6 +1002,7 @@ google.golang.org/grpc/internal/status
 google.golang.org/grpc/internal/syscall
 google.golang.org/grpc/internal/transport
 google.golang.org/grpc/internal/transport/networktype
+google.golang.org/grpc/internal/xds/env
 google.golang.org/grpc/keepalive
 google.golang.org/grpc/metadata
 google.golang.org/grpc/peer
