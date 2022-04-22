@@ -78,7 +78,7 @@ jobs:
           fi
 
       - name: Checkout Source Code
-        uses: actions/checkout@1e204e9a9253d643386038d443f96446fa156a97
+        uses: actions/checkout@2541b1294d2704b0964813337f33b291d3f8596b
         with:
           persist-credentials: false
           ref: ${{ steps.tag.outputs.tag }}
@@ -269,7 +269,7 @@ jobs:
           password: ${{ secrets.QUAY_PASSWORD_CI }}
 
       - name: Checkout Source Code
-        uses: actions/checkout@1e204e9a9253d643386038d443f96446fa156a97
+        uses: actions/checkout@2541b1294d2704b0964813337f33b291d3f8596b
         with:
           persist-credentials: false
           ref: ${{ github.sha }}
